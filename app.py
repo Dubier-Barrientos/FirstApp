@@ -10,7 +10,7 @@ image = Image.open('gatito_mojado.jpg')
 st.image(image, caption="Aquí va un gato mojado")
 
 texto = st.text_input('Escribe algo', 'Este es mi texto')
-st.write('El texto escrito es:', texto)
+st.write('Frases que Adele nunca dijo:', texto)
 
 st.subheader("Ahora usemos dos columnas")
 
